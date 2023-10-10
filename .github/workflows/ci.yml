@@ -27,6 +27,7 @@ jobs:
               generate-documentation --target SearchField \
               --disable-indexing \
               --transform-for-static-hosting \
+              --hosting-base-path swiftui-searchfield \
               --output-path ./docs
 
       - name: Deploy Document
