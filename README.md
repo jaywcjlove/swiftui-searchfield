@@ -3,7 +3,7 @@ SearchField
 
 The search input box component can be placed in a non-specific location and is consistent with the default search input box style.
 
-![SearchField](https://github.com/jaywcjlove/swiftui-searchfield/assets/1680273/43a01ac1-d5bc-42a8-a13b-716aa9eaaf20)
+![SearchField](https://github.com/jaywcjlove/swiftui-searchfield/assets/1680273/b3f99b67-995f-4036-a46d-39225982f008)
 
 ## Installation
 
