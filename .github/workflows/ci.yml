@@ -11,6 +11,14 @@ jobs:
       DEVELOPER_DIR: /Applications/Xcode_14.3.app/Contents/Developer
     steps:
       - uses: actions/checkout@v3
+
+      - uses: swift-actions/setup-swift@v1
+        with:
+          swift-version: 5.9
+
+      - name: Get swift version
+        run: swift --version # Swift 5.9
+
       - name: Build DocC
         run: |
           swift package \
