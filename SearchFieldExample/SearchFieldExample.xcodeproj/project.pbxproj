@@ -11,7 +11,7 @@
 		7D440D0C2AD4DA510043D2FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D440D0B2AD4DA510043D2FC /* ContentView.swift */; };
 		7D440D0E2AD4DA540043D2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D440D0D2AD4DA540043D2FC /* Assets.xcassets */; };
 		7D440D122AD4DA540043D2FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D440D112AD4DA540043D2FC /* Preview Assets.xcassets */; };
-		7D440D1A2AD4DC160043D2FC /* SearchField in Frameworks */ = {isa = PBXBuildFile; productRef = 7D440D192AD4DC160043D2FC /* SearchField */; };
+		7D85CC692AD50ACC007CD89D /* SearchField in Frameworks */ = {isa = PBXBuildFile; productRef = 7D85CC682AD50ACC007CD89D /* SearchField */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +21,7 @@
 		7D440D0D2AD4DA540043D2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D440D0F2AD4DA540043D2FC /* SearchFieldExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SearchFieldExample.entitlements; sourceTree = "<group>"; };
 		7D440D112AD4DA540043D2FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D440D1C2AD504EE0043D2FC /* swiftui-searchfield */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "swiftui-searchfield"; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D440D1A2AD4DC160043D2FC /* SearchField in Frameworks */,
+				7D85CC692AD50ACC007CD89D /* SearchField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +76,7 @@
 		7D440D182AD4DC160043D2FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7D440D1C2AD504EE0043D2FC /* swiftui-searchfield */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,7 +98,7 @@
 			);
 			name = SearchFieldExample;
 			packageProductDependencies = (
-				7D440D192AD4DC160043D2FC /* SearchField */,
+				7D85CC682AD50ACC007CD89D /* SearchField */,
 			);
 			productName = SearchFieldExample;
 			productReference = 7D440D062AD4DA510043D2FC /* SearchFieldExample.app */;
@@ -126,6 +128,8 @@
 				Base,
 			);
 			mainGroup = 7D440CFD2AD4DA510043D2FC;
+			packageReferences = (
+			);
 			productRefGroup = 7D440D072AD4DA510043D2FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -374,7 +378,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7D440D192AD4DC160043D2FC /* SearchField */ = {
+		7D85CC682AD50ACC007CD89D /* SearchField */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SearchField;
 		};
