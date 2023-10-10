@@ -1,4 +1,4 @@
-SearchField
+SwiftUI SearchField
 ===
 
 The search input box component can be placed in a non-specific location and is consistent with the default search input box style.
