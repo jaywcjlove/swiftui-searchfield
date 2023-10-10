@@ -27,7 +27,6 @@ jobs:
               generate-documentation --target SearchField \
               --disable-indexing \
               --transform-for-static-hosting \
-              --hosting-base-path SearchField \
               --output-path ./docs
 
       - name: Deploy Document
