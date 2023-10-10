@@ -10,12 +10,12 @@ public struct SearchField: View {
     // A closure that takes a string as input and returns void
     var textFieldChanged: ((String) -> Void)
 
-    // Initializes a SearchField with a default value and a closure to be called when the text field changes
+    /// Initializes a SearchField with a default value and a closure to be called when the text field changes
     public init(_ defaultValue: String?, textFieldChanged: @escaping ((String) -> Void)) {
         _text = .constant(defaultValue ?? "")
         self.textFieldChanged = textFieldChanged
     }
-    // Initializes a SearchField with a binding to a string value and a closure to be called when the text field changes
+    /// Initializes a SearchField with a binding to a string value and a closure to be called when the text field changes
     public init(_ defaultValue: Binding<String?>, textFieldChanged: @escaping ((String) -> Void)) {
         _text = defaultValue
         self.textFieldChanged = textFieldChanged
