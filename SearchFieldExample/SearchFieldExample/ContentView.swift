@@ -10,6 +10,7 @@ import SearchField
 
 struct ContentView: View {
     @State private var searchText = ""
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -18,7 +19,9 @@ struct ContentView: View {
             Text("Hello, Search Field!")
             SearchField(searchText, textFieldChanged: { value in
                 print("value\(value)")
+                searchText = value
             })
+            Text(searchText)
         }
         .padding()
     }

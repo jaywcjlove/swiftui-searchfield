@@ -3,6 +3,8 @@ SearchField
 
 The search input box component can be placed in a non-specific location and is consistent with the default search input box style.
 
+![SearchField](https://github.com/jaywcjlove/swiftui-searchfield/assets/1680273/43a01ac1-d5bc-42a8-a13b-716aa9eaaf20)
+
 ## Installation
 
 You can add MarkdownUI to an Xcode project by adding it as a package dependency.
@@ -29,8 +31,9 @@ struct ContentView: View {
     var body: some View {
         SearchField(searchText, textFieldChanged: { value in
             print("value\(value)")
+            searchText = value
         })
-        .padding()
+        Text(searchText)
     }
 }
 ```
