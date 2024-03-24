@@ -3,6 +3,24 @@
 
 import SwiftUI
 
+/// The search input box component can be placed in a non-specific location and is consistent with the default search input box style.
+///
+/// ## Example
+///
+/// ```swift
+/// import SearchField
+///
+/// struct ContentView: View {
+///     @State private var searchText = ""
+///     var body: some View {
+///         SearchField(searchText, textFieldChanged: { value in
+///             print("value\(value)")
+///             searchText = value
+///         })
+///     }
+/// }
+/// ```
+/// 
 @available(macOS 10.15, *)
 public struct SearchField: View {
     // A binding to a string value
