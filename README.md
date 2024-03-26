@@ -1,6 +1,11 @@
 SwiftUI SearchField
 ===
 
+
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
+[![CI](https://github.com/jaywcjlove/swiftui-searchfield/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/swiftui-searchfield/actions/workflows/ci.yml)
+![SwiftUI Support](https://shields.io/badge/SwiftUI-macOS%20v10.15-green?logo=Swift&style=flat)
+
 The search input box component can be placed in a non-specific location and is consistent with the default search input box style.
 
 ![SearchField](https://github.com/jaywcjlove/swiftui-searchfield/assets/1680273/b3f99b67-995f-4036-a46d-39225982f008)
