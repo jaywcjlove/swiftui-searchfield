@@ -50,10 +50,14 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var searchText = ""
-    var body: some View {
-        SearchField(searchText: $searchText, placeholder: "Search...", searchField: { searchField in
-            print(type(of: searchField)) // -> NSSearchField
-        })
+    var body: some View { 
+        SearchField(
+            searchText: $searchText,
+            placeholder: "Search...",
+            searchField: { searchField in
+                print(type(of: searchField)) // -> NSSearchField
+            }
+        )
     }
 }
 ```
@@ -142,9 +146,13 @@ struct ContentView: View {
     @State private var searchText = ""
 
     var body: some View {
-        SearchField(searchText: $searchText, placeholder: "Search...", searchField:  { text in
-            print("Search text changed to: \(text)")
-        })
+        SearchField(
+            searchText: $searchText,
+            placeholder: "Search...",
+            searchField: { searchField in
+                print(type(of: searchField)) // -> NSSearchField
+            }
+        )
     }
 }
 ```

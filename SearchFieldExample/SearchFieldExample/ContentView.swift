@@ -19,6 +19,15 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, Search Field!")
             
+            
+            SearchField(
+                searchText: $searchText,
+                placeholder: "Search...",
+                searchField: { searchField in
+                    print(type(of: searchField)) // -> NSSearchField
+                }
+            )
+            
             SearchField(searchText: $searchText, placeholder: "Search...", searchField: { searchField in
                 print(type(of: searchField)) // -> NSSearchField
             })
