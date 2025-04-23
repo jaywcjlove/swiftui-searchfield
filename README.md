@@ -37,6 +37,13 @@ The search input box component can be placed in a non-specific location and is c
 </p>
 <br>
 
+Welcome to download [DevTutor](https://apps.apple.com/app/devtutor/id6471227008), a cheat sheet app designed to help developers quickly build excellent applications using SwiftUI.
+
+<p>
+  <a target="_blank" href="https://apps.apple.com/app/devtutor/id6471227008" title="DevTutor for SwiftUI AppStore"><img alt="DevTutor for SwiftUI AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
+  </a>
+</p>
+
 ## Installation
 
 You can add MarkdownUI to an Xcode project by adding it as a package dependency.
