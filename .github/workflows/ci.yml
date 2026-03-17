@@ -11,8 +11,7 @@ jobs:
     env:
       DEVELOPER_DIR: /Applications/Xcode_14.3.app/Contents/Developer
     steps:
-      - uses: actions/checkout@v3
-
+      - uses: actions/checkout@v6
       - uses: swift-actions/setup-swift@v1
         with:
           swift-version: 5.9
@@ -31,7 +30,7 @@ jobs:
               --output-path ./docs
 
       - name: Deploy Document
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
